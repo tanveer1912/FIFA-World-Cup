@@ -79,3 +79,175 @@ cover styles start
 }
 
 /*=========== cover styles end ======== */
+
+/* ________________________
+  Main tag styles start 
+________________________*/
+
+#container {
+    display: flex;
+
+}
+
+.a-box {
+    width: 15%;
+    height: 300px;
+    background-color: #161616;
+    margin-left: 140px;
+    margin-top: 100px;
+    border-radius: 7px;
+
+
+}
+
+.a-box p {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    padding-top: 35px;
+    row-gap: 50px;
+}
+
+#link1 {
+    background-color: #fff;
+    text-decoration: none;
+    color: #161616;
+    font-size: 15px;
+    padding: 11px 11px;
+    border-radius: 6px;
+
+
+
+}
+
+#link2 {
+
+    background-color: #fff;
+    text-decoration: none;
+    color: #161616;
+    text-align: center;
+    font-size: 15px;
+    padding: 11px 11px;
+    border-radius: 6px;
+
+
+}
+
+#link3 {
+    background-color: rgb(250, 4, 4);
+    text-decoration: none;
+    color: #161616;
+    text-align: center;
+    font-size: 15px;
+    padding: 11px 11px;
+    border-radius: 6px;
+}
+
+.transfers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 65%;
+    height: 100vh;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+.transfer {
+
+    height: 350px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 6px;
+
+}
+
+.transfer-image {
+    margin-bottom: 20px;
+}
+
+.transfer-image img {
+    width: 100%;
+
+}
+
+#short-text {
+    border: 1px solid;
+    padding: 5px 13px;
+    border-radius: 7px;
+}
+
+.time-comment {
+    display: flex;
+    margin-top: 15px;
+    color: #161616B2;
+
+}
+
+#comment {
+    margin-left: 20px;
+}
+
+/*--------------------------
+    main tag styles end
+------------------------- */
+
+/*-----------------
+    footer syles
+------------------- */
+#footer-area {
+
+    height: 400px;
+    background-color: #161616;
+}
+
+.footer {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+hr {
+    color: #FFFFFF;
+    opacity: 0.1;
+    margin: 20px 150px;
+
+}
+
+.footer-settings {
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 470px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    /* font-size: 17px; */
+
+}
+
+.footer-anchor {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.fa-facebook {
+    color: #fff;
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+
+.fa-linkedin {
+    color: #fff;
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+
+.fa-instagram-square {
+    color: #fff;
+    padding-right: 30px;
+    font-size: 25px;
+}
