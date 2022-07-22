@@ -258,19 +258,25 @@ hr {
 /*-------------------------
           Media Query
  ------------------------------- */
-/* only small device */
 
-/* .container {
-    width: 100%;
-} */
+
+/*----------- only small device-------------- */
+
+
 
 @media only screen and (max-width: 676px) {
+
+    body {
+        width: 100%;
+    }
+
     .container {
         flex-direction: column;
         margin-left: 0;
         margin-top: 0;
         margin-right: 0;
         max-width: 100%;
+
     }
 
     .container .cover-image {
@@ -320,19 +326,9 @@ hr {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+/* --------------only Tablet Decices--------------- */
+
+@media only screen and (min-width: 677px) and (max-width: 975px) {}
