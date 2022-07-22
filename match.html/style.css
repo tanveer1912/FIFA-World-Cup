@@ -16,10 +16,9 @@ body {
 /* ---------------------
 cover styles start
 ----------------------- */
-
 .container {
     max-width: 80%;
-    /* height: 660px; */
+    height: 660px;
     background-color: #161616;
     color: #fff;
     display: flex;
@@ -132,75 +131,70 @@ ________________________*/
     background-color: red;
 }
 
-.transfers {
+.upcoming-matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
     row-gap: 10px;
-    width: 65%;
+    width: 60%;
+    height: 60vh;
     margin-top: 100px;
     margin-left: 20px;
     margin-bottom: 100px;
 }
 
-.transfer {
+.match {
+    height: 200px;
     border: 1px solid gainsboro;
     border-radius: 5px;
     padding: 6px;
-
 }
 
-.transfer-image {
-    margin-bottom: 20px;
-}
-
-.transfer-image img {
-    width: 100%;
-
-}
-
-#short-text {
-    border: 1px solid;
-    padding: 5px 13px;
-    border-radius: 7px;
-}
-
-.time-comment {
+.flag {
     display: flex;
-    margin-top: 15px;
-    color: #161616B2;
+    padding: 25px;
 
 }
 
-#comment {
-    margin-left: 20px;
+.flag-j {
+    padding-right: 20px;
 }
 
-.view-all {
-    visibility: hidden;
-    padding-bottom: 40px;
-    display: flex;
-    justify-content: center;
+.flag-f {
+    padding-left: 20px;
 }
 
-#view {
-    padding-left: 22px;
+#oponent {
+    margin-top: 20px;
 }
+
+.information {
+    text-align: center;
+}
+
+#date {
+    opacity: 0.4;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+
 
 /*--------------------------
     main tag styles end
 ------------------------- */
+
 
 /*-----------------
     footer syles
 ------------------- */
 #footer-area {
 
-    /* height: 600px; */
+    height: 400px;
     background-color: #161616;
 }
 
-.footer-text {
+.footer {
     color: #fff;
     font-size: 35px;
     text-align: center;
@@ -215,36 +209,31 @@ hr {
 }
 
 .footer-settings {
-    display: flex;
-
-    justify-content: center;
+    width: 60%;
     margin-top: 50px;
-
+    margin-left: 470px;
     color: #FFFFFF;
     opacity: 0.6;
-    font-size: 17px;
+    /* font-size: 17px; */
 
 }
 
 .footer-anchor {
     text-align: center;
     margin-top: 70px;
-
 }
 
 .fa-facebook {
-    color: white;
+    color: #fff;
     padding-right: 30px;
     font-size: 25px;
-
 }
 
 
 .fa-linkedin {
-    color: #FFFFFF;
+    color: #fff;
     padding-right: 30px;
     font-size: 25px;
-
 }
 
 
@@ -252,87 +241,4 @@ hr {
     color: #fff;
     padding-right: 30px;
     font-size: 25px;
-}
-
-
-/*-------------------------
-          Media Query
- ------------------------------- */
-/* only small device */
-
-/* .container {
-    width: 100%;
-} */
-
-@media only screen and (max-width: 676px) {
-    .container {
-        flex-direction: column;
-        margin-left: 0;
-        margin-top: 0;
-        margin-right: 0;
-        max-width: 100%;
-    }
-
-    .container .cover-image {
-        width: 100%;
-    }
-
-    .cover-titel h1 {
-        font-size: 7vw;
-    }
-
-    #container {
-        flex-direction: column;
-    }
-
-    .box {
-        margin-top: 0;
-        margin-left: 0;
-
-    }
-
-    .a-box {
-
-
-        background-color: white;
-        width: 100%;
-    }
-
-    .a-box li {
-        font-size: 30px;
-    }
-
-    .transfers {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        padding: 0px;
-        margin: 0;
-        width: 100%;
-    }
-
-    .footer-settings {
-        display: grid;
-        grid-template-columns: rows(5, 1fr);
-        row-gap: 10px;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
