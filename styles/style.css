@@ -374,6 +374,9 @@ hr {
         width: auto;
     }
 
+    .view-all {
+        visibility: visible;
+    }
 
 
 
